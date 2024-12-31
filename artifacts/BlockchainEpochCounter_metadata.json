@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "SinceBaseThePrettyChildLaunch",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SinceBitcoinTheDadLaunch",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SinceEthereumTheMotherLaunch",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"SinceBaseThePrettyChildLaunch()": {
+					"notice": "Retourne une chaîne de caractères indiquant la date en jours/mois/année depuis le lancement de Base"
+				},
+				"SinceBitcoinTheDadLaunch()": {
+					"notice": "Retourne une chaîne de caractères indiquant la date en jours/mois/année depuis le lancement de Bitcoin"
+				},
+				"SinceEthereumTheMotherLaunch()": {
+					"notice": "Retourne une chaîne de caractères indiquant la date en jours/mois/année depuis le lancement d'Ethereum"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Dates_since_B_E_B_Launch.sol": "BlockchainEpochCounter"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Dates_since_B_E_B_Launch.sol": {
+			"keccak256": "0xbcb3df3cd7c61eafaadae009d011c337327e3b5f098b5b760a9bf082a7ce0f1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://60573c24e997b37a40552f96b535a1226295810f71ed073c6151418853b6c6e7",
+				"dweb:/ipfs/QmcZk2ttuLHd92b6VjG4zCuZg1dioXK17RRA27NJzGPUdr"
+			]
+		}
+	},
+	"version": 1
+}

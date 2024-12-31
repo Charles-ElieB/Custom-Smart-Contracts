@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDaysSinceOrigin",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSecondsSinceOrigin",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getThedate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getDaysSinceOrigin()": {
+					"returns": {
+						"_0": "DaysSinceOrigin Nombre de jours écoulés"
+					}
+				},
+				"getSecondsSinceOrigin()": {
+					"returns": {
+						"_0": "SecondsSinceOrigin Le timestamp actuel"
+					}
+				},
+				"getThedate()": {
+					"returns": {
+						"_0": "Thedate Une chaîne formatée"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getDaysSinceOrigin()": {
+					"notice": "Calcule le nombre de jours écoulés depuis la création de Bitcoin"
+				},
+				"getSecondsSinceOrigin()": {
+					"notice": "Retourne le timestamp actuel en secondes"
+				},
+				"getThedate()": {
+					"notice": "Retourne une chaîne de caractères indiquant la date en jours/mois/année depuis Bitcoin creation"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Date_Since_Origin_Final.sol": "BitcoinEpochCounter"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Date_Since_Origin_Final.sol": {
+			"keccak256": "0xf4a240ad1589ea83db4ddce272181ce189c8190c325cedd4421a6750e3805bd0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2aef99a16bf3ac8aea243d19d998eec604b5619ddd95792c5567ad5a9ee1660e",
+				"dweb:/ipfs/QmPrZEvv9YXpNnZPg455BwmBpBcfLibVJMfaEJiKPCwkBo"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,47 @@
+{
+  "name": "BlockchainEpochCounter",
+  "address": "0xb1dedb67c3299ee64e020c7e4ce6ba147444af2a",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "SinceBaseThePrettyChildLaunch",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SinceBitcoinTheDadLaunch",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SinceEthereumTheMotherLaunch",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "filePath": "Custom-Smart-Contracts-1735496119200/Dates_since_B_E_B_Launch.sol",
+  "pinnedAt": 1735590283270
+}

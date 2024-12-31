@@ -1,0 +1,47 @@
+{
+  "name": "BitcoinEpochCounter",
+  "address": "0x16b900c8c23544af2e42b8949fed4f2741a34103",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getDaysSinceOrigin",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getSecondsSinceOrigin",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getThedate",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "filePath": "Custom-Smart-Contracts-1735496119200/Date_Since_Origin.sol",
+  "pinnedAt": 1735577388333
+}
